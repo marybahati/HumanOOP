@@ -27,18 +27,18 @@ public class MainActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
-//human mary=new human("mary",20,70,0);
-        human mary= new human("Mary",20,70);
+//Human mary=new Human("mary",20,70,0);
+        Human mary= new Human("Mary",20,70);
 mary.eat();
 mary.sleep();
 mary.sleep(2);
 mary.speak("I love my life");
 mary.birthday();
-Log.d("human","mary's age is "+mary.getAge());
+Log.d("Human","mary's age is "+mary.getAge());
 
 Anna one=new Anna("Anna",23,67,7);
 one.eat();
-Log.d("human","Anna's new age is "+ one.getWeight());
+Log.d("Human","Anna's new age is "+ one.getWeight());
 one.birthday();
 Log.d("one","anna's new age is"+one.getAge());
 

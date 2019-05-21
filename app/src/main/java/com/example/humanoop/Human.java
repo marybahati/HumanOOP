@@ -3,13 +3,13 @@ package com.example.humanoop;
 
 import android.util.Log;
 
-public class human{
+public class Human {
     private String name;
     private int age;
    private int weight;
 
 
-    public human(String name, int age, int weight) {
+    public Human(String name, int age, int weight) {
         this.name = name;
         this.age = age;
         this.weight = weight;
@@ -40,19 +40,19 @@ public class human{
     }
 
     public void eat() {
-        Log.d("human","i am eating food");
+        Log.d("Human","i am eating food");
 
     }
     public void sleep() {
-        Log.d("human", "zzzzzzzzz");
+        Log.d("Human", "zzzzzzzzz");
 
     }
 
     public int sleep(int hours) {
-         return Log.d("human","i am sleeping for"+ ' '+hours+ ' '+"hours");
+         return Log.d("Human","i am sleeping for"+ ' '+hours+ ' '+"hours");
     }
     public void speak(String speech){
-        Log.d("human",speech);
+        Log.d("Human",speech);
     }
 
     public void birthday(){
@@ -63,6 +63,6 @@ public class human{
     }
 
 //    public void hoot(String sound){
-//        Log.d("human","not asleep");
+//        Log.d("Human","not asleep");
 //    }
 }
