@@ -32,7 +32,16 @@ public class MainActivity extends AppCompatActivity {
 mary.eat();
 mary.sleep();
 mary.sleep(2);
-mary.speak("I love party life");
+mary.speak("I love my life");
+mary.birthday();
+Log.d("human","mary's age is "+mary.getAge());
+
+Anna one=new Anna("Anna",23,67,7);
+one.eat();
+Log.d("human","Anna's new age is "+ one.getWeight());
+one.birthday();
+Log.d("one","anna's new age is"+one.getAge());
+
 
 
     }

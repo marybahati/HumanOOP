@@ -54,9 +54,12 @@ public class human{
     public void speak(String speech){
         Log.d("human",speech);
     }
-    public int birthday(int increment){
-        age= age + 1;
-        return age;
+
+    public void birthday(){
+        int age=getAge();
+        age=age +1;
+        setAge(age);
+
     }
 
 //    public void hoot(String sound){
